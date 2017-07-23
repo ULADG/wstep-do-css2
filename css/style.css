@@ -1,0 +1,69 @@
+
+
+/*selektor znacznika*/
+body {
+	background-color:rosybrown;
+	color: azure;
+	font-size: 15px;
+}
+
+/*selektor ID*/
+#paragraf {
+	color: deepskyblue
+}
+/*	selektor klasy*/
+
+.paragraf {
+	color: blueviolet;
+}
+
+/*	laczenie selektorów*/
+a, span, div {
+	color: chartreuse;
+}
+
+/*selektor bezpośredniego elementu potomnego*/
+li > a {
+	color: aqua;
+}
+
+/*selektor bezpośredniego elementu potomnego*/
+div a {
+	color: black;
+}
+/*selektor bliskiego rodzenstwa*/
+h2 + h3 {
+	color: yellow;
+}
+/*selektor rodzenstwa*/
+
+h4 ~ p {
+	color: springgreen;
+	background-color: black;
+	
+}
+
+/*selektor wykluczający*/
+#lista-agnieszki > li:not(.last) {
+	color: deeppink;
+}
+/*seletor kolejnego elementu potomnego*/
+
+ul#lista-karoliny ol {
+	background-color: aquamarine;
+	color: chocolate;
+	border-bottom: 3px solid black;
+}
+ul#lista-karoliny ol:nth-child(3) {
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
